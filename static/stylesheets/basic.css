@@ -1,0 +1,75 @@
+body {
+  background-image: url("/static/images/bg.png");
+  background-position: 50%;
+  background-color: #eeeeee;
+  font-size: 10pt; }
+
+footer {
+  text-align: center; }
+
+a {
+  color: #73b5eb;
+  text-decoration: none; }
+  a:hover {
+    color: #1f85d9; }
+
+#main-logo {
+  height: 70px; }
+  #main-logo h1 img {
+    vertical-align: bottom;
+    margin-left: 5px; }
+
+.pull-right {
+  float: right; }
+
+.nav {
+  background-color: #f59477;
+  box-shadow: 0px 6px 6px #aaaaaa;
+  -webkit-box-shadow: 0px 6px 6px #aaaaaa;
+  -moz-box-shadow: 0px 6px 6px #aaaaaa;
+  height: 37px;
+  line-height: 37px; }
+
+.nav:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 11px;
+  background-image: url("/static/images/lace.png");
+  background-repeat: repeat-x; }
+
+nav li {
+  float: left;
+  margin-left: 10px; }
+nav a {
+  padding-right: 10px;
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none; }
+  nav a:hover {
+    color: #fff;
+    text-decoration: underline; }
+
+#main {
+  margin-top: 25px; }
+
+.content {
+  padding: 10px; }
+
+.sheet {
+  margin-bottom: 15px;
+  box-shadow: 0px 10px 10px #cccccc;
+  -webkit-box-shadow: 0px 10px 10px #cccccc;
+  -moz-box-shadow: 0px 10px 10px #cccccc;
+  position: relative; }
+
+.sheet:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 11px;
+  background-image: url("/static/images/lace.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: -11px;
+  left: 0px; }

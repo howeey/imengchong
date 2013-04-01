@@ -1,0 +1,72 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "short_cut.scss";
+
+.container_12 .mc_grid {
+  width:225px;
+  margin:7px;
+  background-color:#fff;
+  @include rounded-corners(10px);
+  @include shadow(0px 1px 1px, #aaa);
+  .mc_grid_content {
+    width: 205px;
+    margin:10px;
+    img {
+      @include rounded-corners(7px);
+    }
+  }
+  .mc_grid_footer {
+    background-color:#f7f7f7;
+    padding: 10px;
+    @include rounded-corner(bottom-right, 10px);
+    @include rounded-corner(bottom-left, 10px);
+  }
+  ul.filter {
+    background-color:transparent;
+    overflow:hidden;
+    li{
+      display:block;
+      float:left;
+      margin:3px;
+      a {
+        display:block;
+        width:50px;
+        padding:5px;
+        text-align:center;
+        background-color:transparent;
+        color:$orange;
+        font-size:$base_font_size;
+        line-height:$base_font_size;
+        @include rounded-corners(5px);
+        
+        &:hover {
+          background-color:$orange;
+          color:#ffffff;
+        }
+      }
+    }
+  }
+  ul.filter:after {
+    clear:both;
+  }
+}
+.intro {
+  background-color:#e3f0fb;
+  @include rounded-corners(7px);
+  margin-top:7px;
+  padding:7px;
+}
+.container_12 .main_container {
+  background-color:#fff;
+  maring-bottom: 20px;
+  @include rounded-corners(10px);
+  @include shadow(0px 1px 1px, #aaa);
+}
+.container_12 .sidebar {
+  background-color:#fff;
+  margin-bottom: 20px;
+  @include rounded-corners(10px);
+  @include shadow(0px 1px 1px, #aaa);
+}
